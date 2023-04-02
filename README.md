@@ -30,6 +30,6 @@
 - [@Daniel]()
   
 -Artists:
-- [@Clement](https://www.linkedin.com/in/clément-regazzoni-1a7a581bb/)
+- [@Clement](https://clement-regazzoni.fr)
 - [@Margot]()
 - [@Britnay]()
