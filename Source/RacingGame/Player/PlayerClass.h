@@ -16,11 +16,11 @@
 #include "PlayerClass.generated.h"
 
 UCLASS()
-class RACINGGAME_API APlayerClass : public AFloatingVehicule
+class RACINGGAME_API  APlayerClass : public AFloatingVehicule
 {
 	GENERATED_BODY()
 
-		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 		class USpringArmComponent* cameraBoom;
 
 	/** Follow camera */
@@ -93,6 +93,10 @@ protected:
 	void CameraEffects(float DeltaTime);
 
 public:
+
+	UFUNCTION()
+		void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
 	void ApplyBoost(float BoostValue) override;
 
 	// Called every frame

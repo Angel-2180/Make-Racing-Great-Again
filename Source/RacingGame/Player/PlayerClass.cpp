@@ -17,6 +17,7 @@ APlayerClass::APlayerClass()
     followCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
     pitchController = CreateDefaultSubobject<UPitchControl>(TEXT("Pitch Controller"));
     characterMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Character"));
+    hitbox->OnComponentHit.AddDynamic(this, &APlayerClass::OnHit);
 
     cameraBoom->SetupAttachment(RootComponent);
     followCamera->SetupAttachment(cameraBoom, USpringArmComponent::SocketName);
@@ -179,8 +180,13 @@ void APlayerClass::CameraEffects(float DeltaTime)
     cameraBoom->SetRelativeLocation({ cameraBacking, 0, 85.f });
 }
 
-void APlayerClass::ApplyBoost(float BoostValue)
+void APlayerClass::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
+	FVector NormalImpulse, const FHitResult& Hit)
+{
+    playerController->PlayDynamicForceFeedback(NormalImpulse.Size() / 1000000, 0.30f, true, true, true, true);
+}
 
+void APlayerClass::ApplyBoost(float BoostValue)
 {
     hitbox->AddForce(GetActorForwardVector() * BoostValue * 1000);
 }
