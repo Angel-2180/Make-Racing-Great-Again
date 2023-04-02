@@ -18,7 +18,7 @@
 
 - 3 different item available (Green Shell (hover wheel), RedMushroom (red chili) and the traditional banana (bomb))
 - AI that can compete against you
-- Local Multiplayer (WIP but feature is accessible to test)
+- LAN Multiplayer (WIP but feature is accessible to test)
 - A Looping !!!
     
 
@@ -31,4 +31,4 @@
   
 -Artists:
 - <a href="https://clement-regazzoni.fr" target="_blank">@Clement</a>
-- [@Britnay]()
+- [@Britany](https://www.artstation.com/britany8)
