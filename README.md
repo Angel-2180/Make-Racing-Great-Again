@@ -30,5 +30,5 @@
 - <a href="" target="_blank">@Daniel</a>
   
 -Artists:
-- <a href=" https://clement-regazzoni.fr" target="_blank">@Clement</a>
+- <a href="https://clement-regazzoni.fr" target="_blank">@Clement</a>
 - [@Britnay]()
