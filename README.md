@@ -25,11 +25,10 @@
 
 ## Authors
 -Programmer:
-- [@Angel](https://github.com/Angel-2180){:target="_blank"}
-- [@Kouros](https://github.com/Kouros26){:target="_blank"}
-- [@Daniel]()
+- <a href="https://github.com/Angel-2180" target="_blank">@Angel</a>
+- <a href="https://github.com/Kouros26" target="_blank">@Kouros</a>
+- <a href="" target="_blank">@Daniel</a>
   
 -Artists:
-- [@Clement](https://clement-regazzoni.fr){:target="_blank"}
-- [@Margot]()
+- <a href=" https://clement-regazzoni.fr" target="_blank">@Clement</a>
 - [@Britnay]()
