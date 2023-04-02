@@ -27,7 +27,7 @@
 -Programmer:
 - <a href="https://github.com/Angel-2180" target="_blank">@Angel</a>
 - <a href="https://github.com/Kouros26" target="_blank">@Kouros</a>
-- <a href="" target="_blank">@Daniel</a>
+- <a href="https://github.com/DanielHaselock" target="_blank">@Daniel</a>
   
 -Artists:
 - <a href="https://clement-regazzoni.fr" target="_blank">@Clement</a>
