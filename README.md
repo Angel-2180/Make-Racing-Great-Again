@@ -26,10 +26,13 @@
 
 ## Authors
 -Programmer:
-- <a href="https://github.com/Angel-2180" target="_blank">@Angel</a>
-- <a href="https://github.com/Kouros26" target="_blank">@Kouros</a>
-- <a href="https://github.com/DanielHaselock" target="_blank">@Daniel</a>
+- <a href="https://github.com/Angel-2180" target="_blank">@Angel</a> Items, UI , Perforce
+- <a href="https://github.com/Kouros26" target="_blank">@Kouros</a> 3C, Multiplayer
+- <a href="https://github.com/DanielHaselock" target="_blank">@Daniel</a> IA
   
 -Artists:
-- <a href="https://clement-regazzoni.fr" target="_blank">@Clement</a>
+- <a href="https://clement-regazzoni.fr" target="_blank">@Clement</a> 
 - [@Britany](https://www.artstation.com/britany8)
+- [@Margot](https://www.artstation.com/margot_dcst)
+- [@Enzo](https://www.artstation.com/enzolecas)
+- 
