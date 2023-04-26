@@ -58,7 +58,7 @@ void AGreenShell::BeginPlay()
 		sphereCollider->OnComponentHit.AddDynamic(this, &AGreenShell::OnHit);
 
 	gravity = sphereCollider->GetMass() * -GetWorld()->GetGravityZ();
-	speed = 2000.0f;
+	speed = 4000.0f;
 }
 
 void AGreenShell::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)

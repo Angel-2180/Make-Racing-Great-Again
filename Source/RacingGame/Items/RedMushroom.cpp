@@ -34,7 +34,7 @@ ARedMushroom::ARedMushroom()
     Mesh->SetupAttachment(CollisionComponent);
     RootComponent = CollisionComponent;
 
-    SpeedUpAmount = 1000.0f;
+    SpeedUpAmount = 2000.0f;
 }
 
 // Called when the game starts or when spawned

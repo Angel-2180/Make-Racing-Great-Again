@@ -43,7 +43,7 @@ AEMP::AEMP()
     {
         ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileMovement"));
         ProjectileMovement->SetUpdatedComponent(CollisionBox);
-        ProjectileMovement->InitialSpeed = 3250;
+        ProjectileMovement->InitialSpeed = 7250;
         ProjectileMovement->bRotationFollowsVelocity = true;
         ProjectileMovement->bShouldBounce = false;
         ProjectileMovement->bSimulationEnabled = true;
